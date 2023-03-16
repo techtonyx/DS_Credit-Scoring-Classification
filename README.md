@@ -2,7 +2,7 @@
 Data Science projects that I've worked on
 
 
-# **PROJECT 1: CREDIT SCORING CLASSIFICATION**
+# [**PROJECT 1: CREDIT SCORING CLASSIFICATION**](https://github.com/techtonyx/DS_Portfolio)
 ---
 
 **Problem statement**
