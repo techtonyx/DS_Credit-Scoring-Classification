@@ -2,8 +2,50 @@
 Data Science projects that I've worked on
 
 
-# PROJECT 1: CREDIT SCORING CLASSIFICATION
+# **PROJECT 1: CREDIT SCORING CLASSIFICATION**
+---
+**Problem statement**
+In the Credit Scoring ﬁeld, there are two major branches: Applica;on Scoring and Behavioural Scoring.
+Both are tools to screen the risk proﬁle of a client, but used in diﬀerent scenarios. Applica;on Scoring
+(also known as Acquisi;on Scoring) is mainly used to determining whether or not a loan request should
+be accepted or not by assessing its creditworthiness, while Behavioural Scoring aims to monitor the
+likelihood of default for an exis;ng credit, whose result is further used as an input in calcula;ng
+regulatory capital requirement for the bank. 
+Depending on the purpose of a loan, there are various types of credits in the market. A common
+example is the Mortgage loan which ﬁnances the purchase of a house for individuals. Besides gran;ng
+loans to individuals, banks also grant loans to professionals and companies (mainly SME for ABB) to
+support their business. Such loans are called Professional loans. The objec;ve of this data challenge is
+then to develop an Applica;on Scoring model for Professional loans. Gran;ng credits takes a part of risk,
+as the client may default. Then, it is key to grant the credits to the good proﬁles. This is done at
+accepta;on thanks to acquisi;on model, on which acceptance criteria are set. Such model assess the
+credit worthiness of the client. This is tradi;onally done by assessing their probability of default. In
+another words, Applica;on Scoring is basically a classiﬁca;on problem where we want to dis;nguish
+between ‘good’ clients and ‘bad’ clients and grant loans only to ‘good’ clients. There may be diﬀerent
+‘bad’ deﬁni;ons, but generally, ‘bad’ clients are deﬁned as those who are likely to default on his credit
+obliga;ons over a par;cular ;me period (24 months in this case) aRer realiza;on of a new credit.
+Applica;on Scoring model is hence crucial for a bank in the sense that it helps reduce the overall risk
+exposure when lending money to customers. 
 
+**Target variable **
+CLASS 0: No default (has not defaulted credit obliga;ons over a period of 24 months) 
+CLASS 1: Default (defaulted credit obliga;ons over a period of 24 months)
+
+Default rate in dataset is 2,8%.  
+
+**Features **
+About 32.000 professional credits with 43 features are included in the dataset. The type of features are
+the following: 
+
+ 
+- Company informa;on (i.e. NACE, months in business,...) 
+ 
+- Financial data (i.e. cash ﬂow, monthly income, average posi;ve saldo savings) 
+ 
+- Socio-demographic (i.e. marital status, age group,...) 
+ 
+- Behavioural features (i.e. behavioural score) 
+
+---
 ## 1. Business Understanding
 AXA Bank Belgium is a bank which (among others) caters to professionals and companies via provision of
 loans. While the specific use of the loan may vary given the different needs of the applicants, any loan
