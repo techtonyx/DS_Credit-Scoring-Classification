@@ -4,13 +4,16 @@ Data Science projects that I've worked on
 
 # **PROJECT 1: CREDIT SCORING CLASSIFICATION**
 ---
+
 **Problem statement**
+
 In the Credit Scoring ﬁeld, there are two major branches: Applica;on Scoring and Behavioural Scoring.
 Both are tools to screen the risk proﬁle of a client, but used in diﬀerent scenarios. Applica;on Scoring
 (also known as Acquisi;on Scoring) is mainly used to determining whether or not a loan request should
 be accepted or not by assessing its creditworthiness, while Behavioural Scoring aims to monitor the
 likelihood of default for an exis;ng credit, whose result is further used as an input in calcula;ng
 regulatory capital requirement for the bank. 
+
 Depending on the purpose of a loan, there are various types of credits in the market. A common
 example is the Mortgage loan which ﬁnances the purchase of a house for individuals. Besides gran;ng
 loans to individuals, banks also grant loans to professionals and companies (mainly SME for ABB) to
@@ -26,13 +29,13 @@ obliga;ons over a par;cular ;me period (24 months in this case) aRer realiza;on 
 Applica;on Scoring model is hence crucial for a bank in the sense that it helps reduce the overall risk
 exposure when lending money to customers. 
 
-**Target variable **
+**Target variable**
 CLASS 0: No default (has not defaulted credit obliga;ons over a period of 24 months) 
 CLASS 1: Default (defaulted credit obliga;ons over a period of 24 months)
 
 Default rate in dataset is 2,8%.  
 
-**Features **
+**Features**
 About 32.000 professional credits with 43 features are included in the dataset. The type of features are
 the following: 
 
